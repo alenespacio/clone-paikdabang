@@ -1,4 +1,5 @@
 @charset "utf-8";
+
 body  {
     font:16px/1.5 "Nanum Gothic", sans-serif;
     color:#333;
@@ -8,8 +9,42 @@ a, a:link {
     text-decoration: none;
     color: inherit;
 }
-ul li {
+/* ul li {
     float: left;
+} */
+.header-wrap {
+    max-width: 1140px;
+    margin:0 auto;
+}
+.header-top {
+    padding-top:15px;
+}
+#tnb {
+    text-align: right;
+}
+#tnb li {
+    display: inline-block;
+    vertical-align: middle;
+}
+#tnb li:nth-child(1)::after,#tnb li:nth-child(2)::after  {
+    content:'';
+    display: inline-block;
+    width:1px;
+    height: 10px;
+    background: #ccc;
+    margin:0 10px;
+}
+#tnb li:nth-child(3)::after {
+    content:'';
+    display: inline-block;
+    width:1px;
+    height: 10px;
+    background: transparent;
+    margin:0 5px;
+}
+#tnb li a {
+    font-size:0.825rem;
+    color:#8a8a8a;
 }
 #slogan {
     background: url("../images/main_sec1.jpg") center / cover;
