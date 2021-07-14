@@ -63,12 +63,12 @@ a, a:link {
 }
 
 #gnb {
-    text-align: right;
+    text-align: center;
 }
 #gnb li {
-    padding:5px;
-    width: calc(100% / 7);
+    /* width: 100px; */
     float: left;
+    padding: 0 26px;
 }
 #slogan {
     background: url("../images/main_sec1.jpg") center / cover;
