@@ -46,6 +46,30 @@ a, a:link {
     font-size:0.825rem;
     color:#8a8a8a;
 }
+.header-bottom::after {
+    content:'';
+    display: block;
+    clear:both;
+}
+.logo {
+    float: left;
+    width:25%;
+    margin-right: 5%;
+}
+.nav {
+    float: left;
+    width: 70%;
+    margin-left: 30%;
+}
+
+#gnb {
+    text-align: right;
+}
+#gnb li {
+    padding:5px;
+    width: calc(100% / 7);
+    float: left;
+}
 #slogan {
     background: url("../images/main_sec1.jpg") center / cover;
 }
